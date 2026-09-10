@@ -1,0 +1,2 @@
+[console_scripts]
+nettracer = nettracer.nettracer:app

@@ -1,0 +1,7 @@
+pyproject.toml
+nettracer.egg-info/PKG-INFO
+nettracer.egg-info/SOURCES.txt
+nettracer.egg-info/dependency_links.txt
+nettracer.egg-info/entry_points.txt
+nettracer.egg-info/requires.txt
+nettracer.egg-info/top_level.txt

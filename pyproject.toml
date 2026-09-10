@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nettracer"
+version = "1.0.0"
+description = "Moniteur TUI temps réel des sockets réseau avec GeoIP et Threat Intel"
+authors = [{ name = "NetTracer Team" }]
+dependencies = [
+    "psutil",
+    "rich",
+    "geoip2",
+    "requests",
+    "typer"
+]
+
+[project.scripts]
+nettracer = "nettracer.nettracer:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,5 @@
+psutil
+rich
+geoip2
+requests
+typer
