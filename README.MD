@@ -97,7 +97,7 @@ Vous pouvez également fournir directement la clé avec l'option `--api-key`.
 **1. Lancement standard**
 
 ```bash
-sudo -E $(which nettracer)
+sudo -E nettracer
 ```
 
 **2. Filtrer par processus**
